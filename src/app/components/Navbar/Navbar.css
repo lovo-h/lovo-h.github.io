@@ -1,0 +1,38 @@
+
+.nav {
+  background-color: #002366;
+  width: 100%;
+  display: flex;
+  /*justify-content: center;*/
+  height: 3.0rem;
+  color: white;
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item {
+      padding: 0 0.5rem;
+      background-color: transparent;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        color: hsla( 0, 0%, 100%, 0.8 );
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+.nav.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
