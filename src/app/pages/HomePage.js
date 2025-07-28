@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from 'assets/Hector_Lovo_Senior_Software_Engineer_Resume_2025.pdf';
+import resume from 'assets/HectorLovo_SeniorFullStackSoftwareEngineer_Resume.pdf';
 
 const HomePage = ( { ref } ) => {
   return (
